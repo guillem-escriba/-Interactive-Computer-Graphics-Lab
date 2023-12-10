@@ -6,6 +6,7 @@ Email: guillem.escriba01@estudiant.upf.edu
 Name: David Pérez Carrasco
 NIA: 241375
 Email: david.perez18@estudiant.upf.edu
+
 LAB 1 CONTROLS: ("1", "2", "3", "4", "5", "6", "7", "8", "P", ",", ".")
 Some actions print messages to the console to indicate what is happening, such as when the minimum or maximum brush size is reached or when applying a filter. All tasks are applied by holding down their respective key, so releasing them redraws the original image, except for Paint, where pressing 'P' creates a new state for drawing.
 
@@ -21,6 +22,8 @@ Task 5:
 Holding "8" displays our gif. Particles created in the init and updated in the update are drawn only while holding this key.
 Task 6:
 Press "P" for Paint mode. The framebuffer is cleared and Paint is initialized. From this point, interact with the mouse as a brush and select different paint icons. From left to right: New Sketch (erases everything drawn), Save Sketch (saved as "newcanvas"), and various colors (click to change brush color). Use "," and "." to decrease or increase the brush size, with a maximum range of 1 to 100 px. Press "P" again to exit Paint and return to the previously loaded image in the framebuffer.
+
+
 LAB 2 CONTROLS: ("P", ",", ".", "F", "L", "C", "T", "D", "V")
 To draw shapes, press "P" for Paint mode. Shapes follow the same variables as the brush, meaning they increase and decrease in size (for circles) with "," and "." and change color by selecting from the Paint toolbar. Press "F" to fill circles and triangles, toggled on by default.
 
